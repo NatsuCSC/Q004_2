@@ -2,7 +2,7 @@ N, L = map(int, input().split())
 tranScripts = [list(map(int,input().split(" "))) for _ in range(L)]
 tempScript = []
 orderedScripts = []
-studentScripts = [0] * 5
+studentScripts = [0] * L
 
 for subject in range(N):
     tempScript = []
